@@ -21,7 +21,8 @@
         header{
             height: 120px;
             width: 1089px;
-            background-color: bisque;
+            background-color:burlywood;
+            position: relative;
         }
         nav{
             height: 40px;
@@ -29,24 +30,24 @@
             background-color:aqua;
         }
         .content{
-            height: 500px;
+            height: 400px;
             width: 1089px;
             background-color: cadetblue;
         }
         #left{
-            height: 500px;
+            height: 400px;
             width: 30%;
             background-color: yellowgreen;
             float: left;
         }
         #right{
-            height: 500px;
+            height: 400px;
             width: 30%;
             background-color: yellowgreen;
             float: left;
         }
         section{
-            height: 500px;
+            height: 400px;
             width: 40%;
             background-color: tomato;
             float: left;
@@ -77,12 +78,45 @@
             font-style: italic;
             font-weight: bolder;
         }
+        .top-menu li{
+            position: absolute;
+            top: 40px;
+            right: 30px;
+            list-style: none;
+        }
+        .top-menu li:nth-child(1){
+            top: 30px;
+            left: 300px;
+        }
+        .top-menu li:nth-child(2){
+            top: 30px;
+            left: 400px;
+        }
+        .top-menu li:nth-child(3){
+            top: 30px;
+            left: 500px;
+        }
+        .top-menu li:nth-child(4){
+            top: 30px;
+            left: 600px;
+        }
+        .top-menu li:nth-child(5){
+            top: 30px;
+            left: 700px;
+        }
     </style>
 </head>
 <body>
     <div class="wrapper">
         <header>
-
+            <ul class="top-menu">
+                <li><a href="">HOME</a></li>
+                <li><a href="">SERVICES</a></li>
+                <li><a href="">CONTACT</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">HELP</a></li>
+            </ul>
+       
         </header>
         <nav>
             <ul class="menu">
